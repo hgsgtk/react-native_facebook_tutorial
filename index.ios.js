@@ -29,8 +29,14 @@ export default class rntutorial extends Component {
 
 
 const styles = StyleSheet.create({
-    bigblue: {
-                                
-})
+  bigblue: {
+    color: 'blue',
+    fontWeight: 'bold',
+    fontSize: 30,
+  },
+  red: {
+    color: 'red',
+  },
+});
 
 AppRegistry.registerComponent('rntutorial', () => rntutorial);
